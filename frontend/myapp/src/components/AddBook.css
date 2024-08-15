@@ -1,0 +1,76 @@
+.add-book-container {
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 20px 20px;
+    border: 1px solid rgba(125, 125, 125, 0.4);
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding-left: 50px;
+}
+
+.add-book-container h1 {
+    text-align: center;
+    color: #333;
+}
+
+.add-book-container .form-group {
+    margin-bottom: 10px; /* Reduced margin-bottom */
+}
+
+.add-book-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+.add-book-container .form-group input,
+.add-book-container .form-group textarea {
+    width: 90%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-book-container .form-group input[type="file"],
+.add-book-container .form-group input[type="text"] {
+    padding: 8px;
+}
+
+.add-book-container .radio-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.add-book-container .radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #333;
+}
+
+.add-book-container .image-preview {
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-book-container button {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    background-color: #ff5733; /* Orange button color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.add-book-container button:hover {
+    background-color: #c4412a; /* Darker orange on hover */
+}

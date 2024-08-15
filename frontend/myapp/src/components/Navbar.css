@@ -1,0 +1,146 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 15px 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar-logo a {
+    color: #ff623f;
+    text-decoration: none;
+    font-size: 2.0rem;
+    font-weight: bold;
+}
+
+.navbar-search {
+    flex: 1;
+    margin: 0 50px;
+}
+
+.search-form {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+.search-input {
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #df7b1d;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 250px;
+}
+
+.search-button {
+    padding: 8px 15px; /* Adjust padding to match the input height */
+    background-color: #ff6439;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto; /* Ensure the button width adjusts to the content */
+}
+
+.search-button:hover {
+    background-color: #cc5d02;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.navbar-links span {
+    margin-right: 50px;
+}
+
+.logout-button, .mybooks-button, .navbar-links a {
+    padding: 8px 15px;
+    margin-right: 10px;
+    background-color: #ff623f;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mybooks-button:hover {
+    background-color: #cc5d02;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.search-results {
+    margin-top: 20px;
+}
+
+.search-results h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.search-results ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.search-results li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+
+.search-results li h3 {
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+.search-results li p {
+    margin: 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Navbar.css */
+
+.error-popup {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.search-results {
+    margin-top: 20px;
+}
+
+.search-results ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.search-results li {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}

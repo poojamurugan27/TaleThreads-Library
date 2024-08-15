@@ -1,0 +1,53 @@
+.home-container {
+    position: relative;
+    min-height: 89vh;
+    background-image: url('https://cdn.pixabay.com/photo/2021/01/21/16/49/books-5937823_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px; /* Ensure content below navbar */
+}
+
+.content
+{
+    margin-right: 490px;
+    margin-bottom: 150px;
+}
+
+.welcome-message {
+    margin-top: 20px;
+    color: #ff623f;
+    font-size: 7rex;
+}
+
+.paragraph {
+    margin-top: 10px;
+    max-width: 540px;
+    text-align: justify;
+}
+
+.button-container1 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.button-container1 button {
+    background-color: #ff623f;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button-container1 button:hover {
+    background-color: #c4412a;
+}

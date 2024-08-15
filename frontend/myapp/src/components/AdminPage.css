@@ -1,0 +1,40 @@
+/* src/components/AdminPage.css */
+.admin-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: -300px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row; /* Arrange buttons in a row */
+    gap: 20px; /* Space between buttons */
+    justify-content: center;
+}
+
+.admin-page-button {
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #e06a21;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: 200px;
+    text-align: center;
+}
+
+.admin-page-button:hover {
+    background-color: #e2801e;
+}
+
+.logout-button {
+    background-color: #ee8433; /* Slightly different color for logout */
+}
+
+.logout-button:hover {
+    background-color: #e07b28;
+}
